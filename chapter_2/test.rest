@@ -1,0 +1,26 @@
+### TEST GET WEB
+GET http://localhost:8383
+
+###DASHBOARD
+GET http://localhost:8383/dashboard
+
+### DATA
+GET http://localhost:8383/api/data
+
+###ADD USER
+POST http://localhost:8383/api/data
+Content-Type: application/json
+
+{
+    "name": "lmao"
+}
+
+###DELETE
+
+DELETE http://localhost:8383/api/data
+
+
+
+
+
+
